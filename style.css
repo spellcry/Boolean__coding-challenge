@@ -1,8 +1,4 @@
 /* General */
-:root{
-  --margin-y: calc(calc(100vh - 333.09px)/2);
-}
-
 *,
 *::after,
 *::before{
