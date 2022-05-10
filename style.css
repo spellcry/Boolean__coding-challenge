@@ -1,0 +1,95 @@
+/* General */
+:root{
+  --margin-y: calc(calc(100vh - 333.09px)/2);
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background: url(img/background.jpg) no-repeat;
+  background-size: cover;
+  font-family: "Verdana", sans-serif;
+}
+
+/* Utility */
+.container{
+  max-width: 1000px;
+  margin: 20px auto 0;
+  padding: 100px 80px 120px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* Header */
+header{
+  text-align: center;
+}
+
+.header__logo{
+  max-width: 200px;
+}
+
+h1{
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: #0d0;
+}
+
+/* Monopattini Header */
+.mono-header{
+  padding: 10px;
+  text-align: center;
+  background-color: #0d0;
+}
+
+/* Monopattini List */
+.mono-list{
+  color: #fff;
+}
+
+/* Monopattino */
+.mono{
+  margin-top: 30px;
+}
+
+.mono > label{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.mono__via:before{
+  content: "\21A6";
+  margin-right: 5px;
+  font-size: 1.1rem;
+}
+
+.mono__via{
+  line-height: 30px;
+}
+
+
+.mono__status{
+  height: 30px;
+  margin-top: 6px;
+  border-radius: 5px;
+}
+
+.mid{
+  width: 30%;
+  background-color: #ffa500;
+}
+
+.high{
+  width: 65%;
+  background-color: #4daa57;
+}
+
+.low{
+  width: 15%;
+  background-color: #c44536;
+}
